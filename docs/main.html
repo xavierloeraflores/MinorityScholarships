@@ -27,7 +27,33 @@
         </tbody>
     </table>
      
+    
+    <div>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyB5-e5FVjxaDE9v5aZGijXUdPnJTigwJK0",
+    authDomain: "minorityscholarships-d94bf.firebaseapp.com",
+    databaseURL: "https://minorityscholarships-d94bf.firebaseio.com",
+    projectId: "minorityscholarships-d94bf",
+    storageBucket: "minorityscholarships-d94bf.appspot.com",
+    messagingSenderId: "723671457534",
+    appId: "1:723671457534:web:1b6564c34b10eaf7004faf",
+    measurementId: "G-2B5C86CQHG"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
     <script src="./Assets/JS/scholarshipList.js"></script><!--Insert Javascript here--> 
+    </div>
 </body>
 
 </html>
