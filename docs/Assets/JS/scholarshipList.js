@@ -6,7 +6,7 @@ window.onload = function() {
 
 //Retrieves Scholarships from database
 function getScholarships(){
-    fetch('../Assets/JSON/scholarships.JSON')
+    fetch('https://xavierloeraflores.github.io/MinorityScholarships/Assets/JSON/scholarships.JSON')
     .then(function(response) {
         return response.json();
     }).then(function (obj) {
