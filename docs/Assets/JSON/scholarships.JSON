@@ -1,0 +1,93 @@
+{
+    "sample" : {
+        "name" : "SHPE Graduate ScholarSHPE",
+        "url" : "https://www.shpe.org/students/scholarshpe",
+        "dueDate" : "May 31, 2020",
+        "reward" : 3000,
+        "school" : "all",
+        "note" : "Must be a SHPE Member"
+    },
+    "scholarships" : [
+        {
+            "name" : "SHPE Graduate ScholarSHPE",
+            "url" : "https://www.shpe.org/students/scholarshpe",
+            "dueDate" : "May 31, 2020",
+            "reward" : 3000,
+            "school" : "all",
+            "note" : "Must be a SHPE Member"
+        },
+        
+        {
+            "name" : "SHPE Dissertation ScholarSHPE",
+            "url" : "https://www.shpe.org/students/scholarshpe",
+            "dueDate" : "May 31, 2020",
+            "reward" : 5000,
+            "school" : "all",
+            "note" : "Must be a SHPE Member"
+        },
+        
+        {
+            "name" : "SHPE Highschool ScholarSHPE",
+            "url" : "https://www.shpe.org/students/scholarshpe",
+            "dueDate" : "May 31, 2020",
+            "reward" : 1000,
+            "school" : "all",
+            "note" : "Must be a SHPE Member"
+        },
+        
+        {
+            "name" : "SHPE Undergraduate ScholarSHPE",
+            "url" : "https://www.shpe.org/students/scholarshpe",
+            "dueDate" : "May 31, 2020",
+            "reward" : 2000,
+            "school" : "all",
+            "note" : "Must be a SHPE Member"
+        },
+        
+        {
+            "name" : "SHPE Professional ScholarSHPE",
+            "url" : "https://www.shpe.org/students/scholarshpe",
+            "dueDate" : "May 31, 2020",
+            "reward" : 2000,
+            "school" : "all",
+            "note" : "Must be a SHPE Member"
+        },
+        
+        {
+            "name" : "Chevron ScholarSHPE",
+            "url" : "https://www.shpe.org/students/scholarshpe",
+            "dueDate" : "May 31, 2020",
+            "reward" : 5000,
+            "school" : "all",
+            "note" : "Must be a SHPE member and a U.S. Citizen"
+        },
+        
+        {
+            "name" : "Great Minds in STEM Scholarship",
+            "url" : "http://www.greatmindsinstem.org/scholarships/scholarshipappinfo", 
+            "dueDate" : "May 1, 2020",
+            "reward" : 5000,
+            "school" : "all",
+            "note" : ""
+        },
+        
+        {
+            "name" : "SacNas Summer 2020 Scholarship",
+            "url" : "https://www.2020sacnas.org/travel-scholarships/",
+            "dueDate" : "July 15, 2020",
+            "reward" : 999999,
+            "school" : "all",
+            "note" : "Travel Scholarship for Students Persuring Biomedical or Behavioral Science"
+        },
+        
+        {
+            "name" : "Lulac National Scholarship Fund",
+            "url" : "https://www.lnesc.org/lnsf",
+            "dueDate" : "Apr 31, 2020",
+            "reward" : 2000,
+            "school" : "all",
+            "note" : " "
+        }
+    ],
+    "friends" : 5
+}
