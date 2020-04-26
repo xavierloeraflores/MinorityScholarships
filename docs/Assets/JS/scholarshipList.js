@@ -1,5 +1,4 @@
 var scholarshipData;
-
 window.onload = function() {
     getScholarships();
 };//Refreshes scholarship data onload
@@ -25,9 +24,16 @@ function getScholarships(){
 
 //Converts Scholarship data to table data
 function getScholarshipTableData(data){
-    for ( int i =0; i<data.scholarships.length, i++){
+    for ( var i =0; i<data.scholarships.length; i++){
+        var name = data.scholarships[i].name;
+        var url = data.scholarships[i].url;
+        var dueDate = data.scholarships[i].dueDate;
+        var reward = data.scholarships[i].reward;
         
+        scholarshipData += "<tr><td><a href=\"" + url + "\">" + name + "</a></td><td> " + dueDate + "</td><td>" + reward + "</td></tr>";
+        console.log(scholarshipData);
     }
+    scholarshipTableToHTML();
 }
 
 
