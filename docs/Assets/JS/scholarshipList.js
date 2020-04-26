@@ -36,8 +36,14 @@ function getScholarshipTableData(data){
         var url = data[i].url;
         var dueDate = data[i].dueDate;
         var reward = data[i].reward;
-        
+            
+        var stringy = Date.parse(dueDate);
+              
+              var tempx = new Date(stringy);
+              var tempy = new Date();
+                if (tempx.getTime() > tempy.getTime()) {
         scholarshipData += "<tr><td><a target=\"blank\" href=\"" + url + "\">" + name + "</a></td><td> " + dueDate + "</td><td>" + reward + "</td></tr>";
+                }
     }
     console.log(scholarshipData);
     scholarshipTableToHTML();
