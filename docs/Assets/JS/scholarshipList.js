@@ -1,7 +1,11 @@
-var scholarshipData;
+var scholarshipData ="";
 window.onload = function() {
-    getScholarships();
+    //getScholarships();
 };//Refreshes scholarship data onload
+
+
+
+
 
 
 //Retrieves Scholarships from database
@@ -24,15 +28,16 @@ function getScholarships(){
 
 //Converts Scholarship data to table data
 function getScholarshipTableData(data){
-    for ( var i =0; i<data.scholarships.length; i++){
-        var name = data.scholarships[i].name;
-        var url = data.scholarships[i].url;
-        var dueDate = data.scholarships[i].dueDate;
-        var reward = data.scholarships[i].reward;
+    console.log(data.length);
+    for ( var i =0; i<data.length; i++){
+        var name = data[i].name;
+        var url = data[i].url;
+        var dueDate = data[i].dueDate;
+        var reward = data[i].reward;
         
         scholarshipData += "<tr><td><a href=\"" + url + "\">" + name + "</a></td><td> " + dueDate + "</td><td>" + reward + "</td></tr>";
-        console.log(scholarshipData);
     }
+    console.log(scholarshipData);
     scholarshipTableToHTML();
 }
 
