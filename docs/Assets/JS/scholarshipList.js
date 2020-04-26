@@ -8,7 +8,8 @@ window.onload = function() {
 
 
 
-//Retrieves Scholarships from database
+//Retrieves Scholarships from database using Test JSON file
+/*
 function getScholarships(){
     fetch('Assets/JSON/scholarships.JSON')
     .then(function(response) {
@@ -23,11 +24,12 @@ function getScholarships(){
     });
 }
 
-
+*/
 
 
 //Converts Scholarship data to table data
 function getScholarshipTableData(data){
+    scholarshipData ="";
     console.log(data.length);
     for ( var i =0; i<data.length; i++){
         var name = data[i].name;
@@ -35,7 +37,7 @@ function getScholarshipTableData(data){
         var dueDate = data[i].dueDate;
         var reward = data[i].reward;
         
-        scholarshipData += "<tr><td><a href=\"" + url + "\">" + name + "</a></td><td> " + dueDate + "</td><td>" + reward + "</td></tr>";
+        scholarshipData += "<tr><td><a target=\"blank\" href=\"" + url + "\">" + name + "</a></td><td> " + dueDate + "</td><td>" + reward + "</td></tr>";
     }
     console.log(scholarshipData);
     scholarshipTableToHTML();
@@ -47,4 +49,5 @@ function getScholarshipTableData(data){
 //Places data onto a table within HTML
 function scholarshipTableToHTML(){
     document.getElementById("scholarshipData").innerHTML=scholarshipData;
+    getSortType(1);
 }
