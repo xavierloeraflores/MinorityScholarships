@@ -1,0 +1,27 @@
+repo_name: xavierloeraflores/MinorityScholarships
+report_id: acccc43face2a5829a1464415ea4b36d
+repo_type: Public
+timestamp: '2023-11-16T13:00:43+00:00'
+requested_by: xavierloeraflores
+provider: github
+branch: master
+detected_tools_count: 2
+tools:
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: HTML
+  description: Hypertext Markup Language for creating web pages.
+  website_url: http://
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/2270/no-img-open-source.png
+  detection_source: docs/index.html
+  last_updated_by: Xavier Loera Flores
+  last_updated_on: 2020-04-26 02:44:18.000000000 Z
