@@ -1,7 +1,8 @@
 repo_name: xavierloeraflores/MinorityScholarships
 report_id: acccc43face2a5829a1464415ea4b36d
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-16T13:00:43+00:00'
+timestamp: '2024-01-05T08:38:15+00:00'
 requested_by: xavierloeraflores
 provider: github
 branch: master
@@ -15,6 +16,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/xavierloeraflores/MinorityScholarships
   detection_source: Repo Metadata
 - name: HTML
   description: Hypertext Markup Language for creating web pages.
@@ -22,6 +24,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/2270/no-img-open-source.png
+  detection_source_url: https://github.com/xavierloeraflores/MinorityScholarships/blob/master/docs/index.html
   detection_source: docs/index.html
   last_updated_by: Xavier Loera Flores
   last_updated_on: 2020-04-26 02:44:18.000000000 Z
